@@ -1,14 +1,31 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
+<html>
+    <head lang="pt-br">
+        <meta charset="utf-8"/>
 
-[AQUI ENTRA UMA FOTO]
-
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+        <title>Google Glass</title>
+        <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+        <script type="text/javascript" src="_javascript/funcoes.js"></script>>
+    </head>
+    <body>
+        <div id="interface">
+            <header id="cabecalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+                <img id="icone" src="_imagens/contato.png" alt="glass-oculos-preto-peq"/>
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul>
+                    <li onmouseover="mudafoto('home')" onmouseout="mudafoto('contato')"><a href="index.html">Home</a></li>
+                    <li onmouseover="mudafoto('especificacoes')" onmouseout="mudafoto('contato')"><a href="specs.html">Especificações</a></li>
+                    <li onmouseover="mudafoto('fotos')" onmouseout="mudafoto('contato')"><a href="fotos.html">Fotos</a></li>
+                    <li onmouseover="mudafoto('multimidia')" onmouseout="mudafoto('contato')"><a href="multimidia.html">Multimídia</a></li>
+                    <li onmouseover="mudafoto('contato')" onmouseout="mudafoto('contato')"><a href="fale-conosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+            </header>
 
 Fale Conosco > Contato
 Formulário de Contato
@@ -43,5 +60,10 @@ Quero um Google Glass
 
 [BOTÃO ENVIAR]
 
-Copyright 2013 - by Gustavo Guanabara
-Facebook | Twitter
+            <footer id="rodape">
+                <p>Copyright &copy; 2018 - by Lucas Salvador<br/>
+                    Facebook | Twitter</p>
+            </footer>
+        </div>
+    </body>
+</html>
